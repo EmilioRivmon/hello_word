@@ -54,4 +54,4 @@ def square(start, end):
 [title](https://www.example.com)
 
 # 9.Image
-[alt text](image.jpg)
+[Emilio Photo](Emiliophoto.jpg)
