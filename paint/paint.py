@@ -1,3 +1,5 @@
+#Emilio Jacob Rivas Monroy
+
 """Paint, for drawing shapes.
 
 Exercises
@@ -69,14 +71,36 @@ def store(key, value):
     state[key] = value
 
 
+#Diccionario
 state = {'start': None, 'shape': line}
-setup(420, 420, 370, 0)
+#Turtle_setup
+setup(420, 420, 35, 0)
+goto(210,210)
+color("green")
+up()
+goto(0,0)
+down()
+goto(210,-210)
+
+color("red")
+up()
+goto(0,0)
+down()
+goto(-210,-210)
+
+color("blue")
+up()
+goto(0,0)
+down()
+goto(-210,210)
+
+#atender los eventos del mouse 
 onscreenclick(tap)
 listen()
 onkey(undo, 'u')
-onkey(lambda: color('black'), 'K')
-onkey(lambda: color('white'), 'W')
-onkey(lambda: color('green'), 'G')
+onkey(lambda: color('black','red'), 'K')
+onkey(lambda: color('white','green'), 'W')
+onkey(lambda: color('green','blue'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
 onkey(lambda: store('shape', line), 'l')
@@ -85,19 +109,4 @@ onkey(lambda: store('shape', circle), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
 done()
-Logo
 
-Free Python Games
-
-
-Donate
-If you or your organization uses Free Games, consider donating:
-
-Donate to Free Python Games
-
-Related Topics
-Documentation overview
-Previous: Illusion
-Next: Maze
-Quick search
-©
