@@ -1,3 +1,5 @@
+#Emilio Jacob Rivas Monroy
+
 """Paint, for drawing shapes.
 
 Exercises
@@ -69,8 +71,10 @@ def store(key, value):
     state[key] = value
 
 
+#Diccionario
 state = {'start': None, 'shape': line}
-setup(420, 420, 370, 0)
+#Turtle_setup
+setup(420, 420, 35, 0)
 onscreenclick(tap)
 listen()
 onkey(undo, 'u')
