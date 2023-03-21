@@ -54,4 +54,15 @@ def square(start, end):
 [title](https://www.example.com)
 
 # 9.Image
-[Emilio Photo](Emiliophoto.jpg)
+[Emilio Photo](foto.jpg)
+
+# 10.Tabla
+| Syntax | Description |
+| ----------- | ----------- |
+| True | True | True | True |
+| False | False | False | False |
+
+# 11.Opciones
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
